@@ -141,6 +141,7 @@ section {
 .news-title {
   font-size: 20px;
   margin-bottom: 17px;
+  font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
 .news-img {
   vertical-align: top;
@@ -152,9 +153,14 @@ section {
   width: 929px;
   margin-bottom: 36px;
   margin-left: 30px;
+  text-indent: 50px;
 }
 .paragr1 {
   margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 .article {
   margin-bottom: 17px;
