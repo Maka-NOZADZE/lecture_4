@@ -1,0 +1,168 @@
+.nav-item {
+  font-size: 22px;
+  color: #3d58a6;
+}
+.active {
+  color: #ee4036;
+}
+.news-title {
+  font-size: 20px;
+  font-weight: normal;
+}
+.news-text {
+  font-size: 16px;
+}
+.contactAdress {
+  text-align: center;
+}
+.p1 {
+  color: #3d58a6;
+  font-size: 20px;
+}
+
+.ligth {
+  color: #808080;
+}
+
+/*  lesson 3 inline block*********************************************************** ******************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*  first step :  put all elements from header in INLINE BLOCK to have them like one line  */
+/*  step two: put all elements in center with Wertical -align middle  */
+/*  step 3: distance between nav elements with margin-right*/
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.nav-bar {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav-li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 18px;
+}
+
+/*  distance between header and big photo */
+.section-1 {
+  margin-bottom: 116px;
+  margin-top: 77px;
+}
+
+/*  section with big photo *******/
+/*  as we know size 1170/460  so we take the screen size and put the photo automaticaly on screen middle , so we do it with margin, and to do it need absolutely mention sizes WIDTH and HEIGHT*/
+.section-1-container {
+  width: 1170px;
+  height: 460px;
+  margin: auto;
+}
+.section-2-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.section-2-title {
+  margin-bottom: 40px;
+}
+.left-block {
+  width: 570px;
+  height: 225px;
+  background-color: #f2f2f2;
+  padding: 10px 15px 24px 28px;
+  display: inline-block;
+}
+.right-block {
+  width: 570px;
+  height: 225px;
+  background-color: #f2f2f2;
+  padding: 10px 15px 24px 28px;
+  display: inline-block;
+  margin-left: 23px;
+}
+.block-title {
+  margin-bottom: 12px;
+}
+.block-img {
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+  margin-right: 60px;
+}
+.block-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 355px;
+}
+/* contact page******************* */
+.contact-container {
+  width: 1366px;
+  /* width: auto; */
+  height: 570px;
+  background-color: #e6e6e6;
+  padding: 39px 95px 66px 110px;
+  margin-top: 19px;
+}
+.adress {
+  width: 261px;
+  height: 98px;
+  display: inline-block;
+  vertical-align: top;
+}
+.map {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mapPhoto {
+  width: 848px;
+}
+
+/* **********************news page******************************* */
+/*  news page  */
+.article {
+  width: 1238px;
+  height: 1753px;
+  display: inline-block;
+  /* margin: auto; */
+  margin: 20px;
+}
+/* .article-block {
+  height: 360px;
+} */
+.news-calender {
+  width: 52px;
+  height: 64px;
+  background-color: #110a55;
+  padding-top: 10px;
+}
+.calendar-date {
+  text-align: center;
+  color: #e6e6e6;
+  font-size: 40px;
+}
+
+.under-calendar-text {
+  color: #3d58a6;
+  font-size: 22px;
+}
+.news-title {
+  font-size: 20px;
+  margin-bottom: 21px;
+  margin-top: 17px;
+}
+.news-img {
+  display: inline-block;
+  width: 270px;
+  height: 210px;
+  vertical-align: top;
+  /* margin-right:39 px; */
+}
+.news-paragr {
+  display: inline-block;
+  vertical-align: top;
+  width: 929px;
+  margin-bottom: 36px;
+  margin-left: 30px;
+}
+.paragr1 {
+  margin-bottom: 20px;
+}
